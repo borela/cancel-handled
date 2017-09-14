@@ -20,7 +20,7 @@ function cancelEvent(e) {
     e.stopPropagation()
 }
 
-type Handler = (...args:any) => boolean | void
+type Handler = undefined | (...args:any) => boolean | void
 
 /**
  * Creates a function that can be used as an event handler for React components.
