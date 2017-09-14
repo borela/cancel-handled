@@ -9,7 +9,6 @@ npm install --save cancel-handled
 ## Usage
 
 ```js
-import autobind from 'autobind-decorator'
 import React, { Component } from 'react'
 import cancelHandled from 'cancel-handled'
 
