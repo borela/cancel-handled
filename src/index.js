@@ -27,8 +27,10 @@ type Handler = (...args:any) => boolean | void
  */
 export function cancelHandled(handler:Handler) {
   return (e, ...otherArgs) => {
-    if (handler(e, ...otherArgs))
+    if (handler && handler(e, ...otherArgs)) {
       cancelEvent(e)
+      return true
+    }
   }
 }
 
