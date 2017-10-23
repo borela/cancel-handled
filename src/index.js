@@ -31,6 +31,7 @@ export function cancelHandled(handler:Handler) {
       cancelEvent(e)
       return true
     }
+    return false
   }
 }
 
