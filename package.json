@@ -1,6 +1,6 @@
 {
   "name": "cancel-handled",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Helper to cancel and stop propagation of handled ReactJS events.",
   "license": "Apache-2.0",
   "main": "build",
